@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>nav</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="nav.css" />
+  </head>
+  <body>
+    <div class="navbar-container">
+      <div class="navLogo">
+        <div>
+          <img src="leftLogo.png" alt="left logo" class="leftLogo" />
+        </div>
+        <div class="centerText">
+          <div>SPEED EXPRESS INTERNATIONAL</div>
+          <div>LOGISTICS & COURIER LIMITED</div>
+        </div>
+        <div>
+          <img src="rightLogo.png" alt="left logo" class="rightLogo" />
+        </div>
+      </div>
+      <div class="container">
+        <div class="navbar">
+          <a href="#">Home</a>
+          <div class="dropdown">
+            <a href="#">About Us</a>
+            <div class="dropdown-content">
+              <a href="#">Option 1</a>
+              <a href="#">Option 2</a>
+            </div>
+          </div>
+          <a href="#">Track Shipments</a>
+          <a href="#">Contacts</a>
+        </div>
+      </div>
+
+      <div class="mobile">
+        <div>
+          <img src="leftLogo.png" alt="left logo" class="leftLogo" />
+        </div>
+        <div class="sidebar">
+          <div class="mobile-links">
+            <a href="#" onclick="closeSidebar()">✕</a>
+            <a href="#">Home</a>
+            <div class="dropdown">
+              <a href="#" onclick="toggleMobileDropdown()">About Us</a>
+              <div class="mobile-dropdown-content">
+                <a href="#">Option 1</a>
+                <a href="#">Option 2</a>
+              </div>
+            </div>
+            <a href="#" class="track-shipment">Track Shipments</a>
+            <a href="#">Contacts</a>
+          </div>
+        </div>
+        <div class="mobile-navbar">
+          <div class="hamburger-icon" onclick="openSidebar()">☰</div>
+        </div>
+      </div>
+
+      <script src="nav.js"></script>
+    </div>
+
+
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="slide-info">
+              <h2>Delivering Your Success, One Shipment at a Time</h2>
+              <div class="swipe-link"><a href="services .html" target="_blank">View Services</a></div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide-info">
+              <h2>Your trusted Partner in Seamless Logistics Solutions</h2>
+              <div class="swipe-link"></div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide-info">
+              <h2>Connecting the World, One Package at a Time</h2>
+              <div class="swipe-link"></div>
+            </div>
+          </div>
+       </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+
+
+
+
+
+
+
+    <div class="ticker-container">
+      <div class="ticker-text">
+       <p>Operation</p>
+       <span>*</span>
+       <p>Logistics</p>
+       <span>*</span>
+       <p>Delivery service</p>
+       <span>*</span>
+       <p>Handling</p>
+       <span>*</span>
+       <p>Shipping</p>
+      </div>
+    </div>
+    
+      <!-- tracking solution -->
+    <section class="track">
+      <div class="main-track">
+        <div class="title-track">
+          <h2>TRACK YOUR SHIPMENT</h2>
+        </div>
+        <form action="" class="tracking">
+          <input type="text" placeholder="TRACK ID">
+          <button class="track-but">TRACK</button>
+        </form>
+      </div>
+    </section>
+
+
+
+
+    <section class="about" id="about-us">
+      <div class="about-title">
+        <h2>Your Delivery Company of choice</h2>
+      </div>
+      <div class="about-main">
+        <div class="about-left">
+          <div class="writeup">
+            <p>Speed Express International Logistics & Couriers Limited is a delivery company in Nigeria, that provides exceptional delivery services within and outside Nigeria. We are one of the few courier companies that are licensed by the Nigerian Government to operate within and outside Nigeria.
+              Nigeria is Africa's most populous country with a population of over 180 million. We are considered one of the top economies in Africa, as well as a global emerging market.
+              To ensure smooth functioning, businesses constantly require various logistics solutions such as parcel delivery, courier and dispatch services every day. Therefore, there is a need for a tested and trusted partner to meet these needs. The emergence of online stores has made it necessary to evolve to offer affordable e-commerce logistics solutions.
+              It does not matter what your local business logistics and international delivery needs are, we have you covered!
+            </p>
+          </div>
+          <div class="ceo">
+            <img src="img/Rectangle 31.png" alt="">
+            <div class="ceo-name">
+              <h2>SEGUN OLA</h2>
+              <p>Chairman & Chief exec</p>
+            </div>
+          </div>
+        </div>
+        <div class="about-right">
+          <div class="right-img1"><img src="img/mak-8wy9mGgmGoU-unsplash.jpg" alt=""></div>
+          <div class="right-img2">
+            <img src="img/african-american-female-deliverer-writing-notes-while-dispatching-packages-city.jpg" alt="" class="top">
+            <img src="img/logistics-transportation-container-cargo-ship-cargo-plane-with-working-crane-bridge-shipyard-sunrise-logistic-import-export-transport-industry-background-ai-generative.jpg" alt="">
+          </div>
+        </div>
+      </div>
+  
+      <div class="text-counter">
+        <div class="main-count">
+          <div class="count-row">
+  
+            <div class="count">
+              <img src="img/projectsdone.png" alt="">
+              <div class="stat">
+                <div class="num">
+                  <h2 class="counter">320</h2>
+                  <h2 class="plus">+</h2>
+                </div>
+                <p>Projects done</p>
+              </div>
+            </div>
+    
+            <div class="count">
+              <img src="img/clients.png" alt="">
+              <div class="stat">
+                <div class="num">
+                  <h2 class="counter">72</h2>
+                  <h2 class="plus">+</h2>
+                </div>
+                <p>Clients worldwide</p>
+              </div>
+            </div>
+  
+          </div>
+  
+          <div class="count-row">
+  
+            <div class="count">
+              <img src="img/vehicle.png" alt="">
+              <div class="stat">
+                <div class="num">
+                  <h2 class="counter">153</h2>
+                  <h2 class="plus">+</h2>
+                </div>
+                <p>Owned vehicles</p>
+              </div>
+            </div>
+    
+            <div class="count">
+              <img src="img/team.png" alt="">
+              <div class="stat">
+                <div class="num">
+                  <h2 class="counter">114</h2>
+                  <h2 class="plus">+</h2>
+                </div>
+                <p>People in team</p>
+              </div>
+            </div>
+  
+          </div>
+        </div>
+      </div>
+  
+    </section>
+
+
+
+
+    <section class="services">
+      <div class="ser-title">
+        <h2>Our Services</h2>
+      </div>
+      <div class="detail-service">
+        <p>We offer various services that include: parcel delivery services, freight clearing forwarding, and customs clearances.
+          It does not matter the type and nature of delivery, we have a service to meet your needs. Our services are specially designed to ensure you have a great customer experience.
+        </p>
+      </div>
+      <div class="service-list">
+        <div class="service-card">
+          <img src="img/black-female-courier-unloading-cardboard-boxes-from-van-while-making-delivery-city.jpg" alt="">
+          <div class="card-det">
+            <a href="service-exp.html">Courier services</a>
+            <p>Speed Express International Logistics & Couriers Limited has efficient service delivery across the country with a high record of same day delivery at every airport city.
+            </p>
+          </div>
+        </div>
+        <div class="service-card">
+          <img src="img/special courier.png" alt="">
+          <div class="card-det">
+            <a href="service-exp - Copy.html">Special courier services</a>
+            <p>The service includes collection and delivery of courier bags. Deliveries of Capital market document
+            </p>
+          </div>
+        </div>
+        <div class="service-card">
+          <img src="img/dedicated dispatch picturee.jpg" alt="">
+          <div class="card-det">
+            <a href="service-exp - Copy (2).html">Dedicated dispatch services</a>
+            <p>Speed Express International Logistics & Couriers Limited shall ensure the provision of well trained, experience and reliable Dispatch personnel at all times.
+            </p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="view-more">
+        <a href="services .html" target="_blank">View services</a>
+      </div>
+    </section>
+  
+    <!-- specialty -->
+    <section class="special">
+      <div class="main-special">
+        <div class="left-special">
+          <h2>What makes us special</h2>
+          <p>Over 42,000 dedicated employees, working in 17 regional clusters around the globe, to ensure we deliver excellent services
+          </p>
+        </div>
+        <div class="right-special">
+          <div class="special-row">
+            <div class="special-card">
+              <img src="img/Vector 4.png" alt="" class="vec1">
+              <p>PACKAGING AND STORAGE</p>
+            </div>
+            <div class="special-card">
+              <img src="img/Vector 8.png" alt="" class="vec2">
+              <p>WAREHOUSING SERVICE</p>
+            </div>
+          </div>
+  
+          <div class="special-row">
+            <div class="special-card">
+              <img src="img/Vector 5.png" alt="" class="vec3">
+              <p>GROUND TRANSPORT</p>
+            </div>
+            <div class="special-card">
+              <img src="img/Vector 6.png" alt="" class="vec4">
+              <p>LOGISTIC SERVICES</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <!-- contact us -->
+    <section class="contact">
+      <div class="main-contact">
+        <div class="left-contact">
+          <div class="title">
+            <h2>Contact us</h2>
+          </div>
+          <div class="contact-box">
+            <div class="contact-info">
+              <img src="img/Group 450.png" alt="">
+              <div class="img-info">
+                <h2>Phone</h2>
+                <p>08023068750 / 08185443174</p>
+              </div>
+            </div>
+            <div class="contact-info">
+              <img src="img/Group 451.png" alt="">
+              <div class="img-info">
+                <h2>Email</h2>
+                <p>Speedxpress.ng@gmail.com</p>
+              </div>
+            </div>
+            <div class="contact-info">
+              <img src="img/Group 452.png" alt="">
+              <div class="img-info">
+                <h2>Monday - Saturday</h2>
+                <p>08:00 am to 9:00 pm (Sun: Closed)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="right-contact">
+          <form action="">
+            <div class="form-title">
+              <h2>Request a free quote</h2>
+            </div>
+            <div class="main-form">
+              <div class="left-form">
+                <input type="text" placeholder="Freight type">
+                <input type="text" placeholder="City of Departure">
+                <input type="text" placeholder="Delivery city">
+                <input type="text" placeholder="Incoterms">
+                <input type="text" placeholder="Total Gross Weight">
+              </div>
+              <div class="right-form">
+                <input type="text" placeholder="Dimension">
+                <input type="email" placeholder="Email">
+                <textarea  id="message" rows="5" placeholder="Message"></textarea>
+                <button>Send a quote</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  
+    <!-- testimonial and faq -->
+    <section class="testimonial">
+      <div class="title-test">
+        <h2>Testimonial</h2>
+      </div>
+      <div class="main-test">
+        <div class="test-card">
+          <img src="" alt="">
+          <h2>Natalie Natalie</h2>
+          <p class="designation">Project manager</p>
+          <p class="tests">Consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem. Consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.
+          </p>
+        </div>
+        <div class="test-card">
+          <img src="" alt="">
+          <h2>Natalie Natalie</h2>
+          <p class="designation">Project manager</p>
+          <p class="tests">Consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem. Consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.
+          </p>
+        </div>
+        <div class="test-card">
+          <img src="" alt="">
+          <h2>Natalie Natalie</h2>
+          <p class="designation">Project manager</p>
+          <p class="tests">Consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem. Consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.
+        </div>
+      </div>
+  
+      <div class="faq">
+        <div class="title-faq">
+          <h2>Faq</h2>
+        </div>
+        <div class="question" onclick="toggleAnswer(1)">
+          <p>What is faq 1</p>
+          <i class='bx bx-chevron-down'></i>
+        </div>
+        <div class="answer" id="answer1">
+          <p>lorem ipsum lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem
+            lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem
+          </p>
+        </div>
+  
+        <div class="question" onclick="toggleAnswer(2)">
+          <p>What is faq 1</p>
+          <i class='bx bx-chevron-down'></i>
+        </div>
+        <div class="answer" id="answer2">
+          <p>lorem ipsum lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem
+            lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem
+            lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem
+            lorem lorem
+          </p>
+        </div>
+  
+        <div class="question" onclick="toggleAnswer(3)">
+          <p>What is faq 1</p>
+          <i class='bx bx-chevron-down'></i>
+        </div>
+        <div class="answer" id="answer3">
+          <p>lorem ipsum lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem
+            lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem
+            lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem
+            lorem lorem
+          </p>
+        </div>
+  
+        <div class="question" onclick="toggleAnswer(4)">
+          <p>What is faq 1</p>
+          <i class='bx bx-chevron-down'></i>
+        </div>
+        <div class="answer" id="answer4">
+          <p>lorem ipsum lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem
+            lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem
+            lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem
+            lorem lorem
+          </p>
+        </div>
+  
+        <div class="question" onclick="toggleAnswer(5)">
+          <p>What is faq 1</p>
+          <i class='bx bx-chevron-down'></i>
+        </div>
+        <div class="answer" id="answer5">
+          <p>lorem ipsum lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem
+            lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem
+          </p>
+        </div>
+      </div>
+    </section>
+  
+  
+  <!-- footer -->
+  <footer class="deskt-foot">
+    <div class="main-footer">
+      <div class="left-foot">
+        <p>Everyday is a new day for us and we work really hard to satisfy our customer everywhere.
+        </p>
+        <div class="contact-foot">
+          <h2>CONTACT</h2>
+          <ul>
+            <li>CONTACT 25B Oluyombo Strreet, Ikosi Ketu,Lagos State ,Nigeria.</li>
+            <li>08023068750 / 08185443174</li>
+            <li> Speedxpress.ng@gmail.com</li>
+          </ul>
+        </div>
+      </div>
+  
+      <div class="middle-foot">
+        <img src="img/speedexLogo white.png" alt="" class="foot-logo">
+        <div class="socials">
+          <a href=""><img src="img/facebook (2).png" alt="" class="fb"></a>
+          <a href=""><img src="img/twitter (3).png" alt="" class="twit"></a>
+          <a href=""><img src="img/instagram (3).png" alt="" class="ig"></a>
+        </div>
+      </div>
+  
+      <div class="right-foot">
+        <div class="foot-links">
+          <a href="index.html">Home</a>
+          <a href="#about-us">About Us</a>
+          <a href="track.html">Track Shipment</a>
+          <a href="contact-us.html">Contacts</a>
+        </div>
+        <div class="official">
+          <img src="img/image 4.png" alt="">
+        </div>
+      </div>
+    </div>
+  
+    <div class="copyright">
+      <span>Copyright © 2021. All rights reserved</span>
+    </div>
+  </footer>
+  
+  <!-- mobile-footer -->
+  <footer class="mobile-foot">
+    <div class="main-mobile">
+      <div class="top-mobile">
+        <img src="img/speedexLogo white.png" alt="">
+      </div>
+  
+      <div class="middle-mobile">
+        <div class="contact-foot">
+          <div class="quote-foot">
+            <p>Everyday is a new day for us and we work really hard to satisfy our customer everywhere.
+            </p>
+          </div>
+          <h2>CONTACT</h2>
+          <ul>
+            <li>CONTACT 25B Oluyombo Strreet, Ikosi Ketu,Lagos State ,Nigeria.</li>
+            <li>08023068750 / 08185443174</li>
+            <li>Speedxpress.ng@gmail.com</li>
+          </ul>
+        </div>
+  
+        <div class="foot-links">
+          <a href="index.html">Home</a>
+          <a href="#about-us">About Us</a>
+          <a href="track.html">Track Shipment</a>
+          <a href="contact-us.html">Contacts</a>
+        </div>
+  
+      </div>
+  
+      <div class="socials">
+        <a href=""><img src="img/facebook (2).png" alt="" class="fb"></a>
+        <a href=""><img src="img/twitter (3).png" alt="" class="twit"></a>
+        <a href=""><img src="img/instagram (3).png" alt="" class="ig"></a>
+      </div>
+  
+      <div class="copyright">
+        <span>Copyright © 2021. All rights reserved</span>
+      </div>
+    </div>
+    <script>
+      function toggleAnswer(id) {
+        var answer = document.getElementById('answer' + id);
+        if (answer.style.display === 'block') {
+          answer.style.display = 'none';
+        } else {
+          answer.style.display = 'block';
+        }
+      }
+  
+      $(document).ready(function(){
+      $(".counter").counterUp({
+        delay: 14,
+        time: 1200
+      });
+    });
+    </script>
+  </footer>
+
+  </body>
+</html>
